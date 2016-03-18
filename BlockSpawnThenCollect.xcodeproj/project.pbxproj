@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		898170471C9CB77700B6A9ED /* TitleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 898170461C9CB77700B6A9ED /* TitleScene.sks */; };
+		898170491C9CB78A00B6A9ED /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898170481C9CB78A00B6A9ED /* TitleScene.swift */; };
 		89F62B7B1C9B68A400364DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F62B7A1C9B68A400364DEF /* AppDelegate.swift */; };
 		89F62B7D1C9B68A400364DEF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 89F62B7C1C9B68A400364DEF /* GameScene.sks */; };
 		89F62B7F1C9B68A400364DEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F62B7E1C9B68A400364DEF /* GameScene.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		898170461C9CB77700B6A9ED /* TitleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleScene.sks; sourceTree = "<group>"; };
+		898170481C9CB78A00B6A9ED /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
 		89F62B771C9B68A400364DEF /* BlockSpawnThenCollect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockSpawnThenCollect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F62B7A1C9B68A400364DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89F62B7C1C9B68A400364DEF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				89F62B851C9B68A400364DEF /* Assets.xcassets */,
 				89F62B871C9B68A400364DEF /* LaunchScreen.storyboard */,
 				89F62B8A1C9B68A400364DEF /* Info.plist */,
+				898170461C9CB77700B6A9ED /* TitleScene.sks */,
+				898170481C9CB78A00B6A9ED /* TitleScene.swift */,
 			);
 			path = BlockSpawnThenCollect;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				89F62B7D1C9B68A400364DEF /* GameScene.sks in Resources */,
 				89F62B891C9B68A400364DEF /* LaunchScreen.storyboard in Resources */,
 				89F62B861C9B68A400364DEF /* Assets.xcassets in Resources */,
+				898170471C9CB77700B6A9ED /* TitleScene.sks in Resources */,
 				89F62B841C9B68A400364DEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				89F62B7F1C9B68A400364DEF /* GameScene.swift in Sources */,
 				89F62B811C9B68A400364DEF /* GameViewController.swift in Sources */,
 				89F62B7B1C9B68A400364DEF /* AppDelegate.swift in Sources */,
+				898170491C9CB78A00B6A9ED /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +502,7 @@
 				89F62BA51C9B68A400364DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89F62BA61C9B68A400364DEF /* Build configuration list for PBXNativeTarget "BlockSpawnThenCollectTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				89F62BA81C9B68A400364DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89F62BA91C9B68A400364DEF /* Build configuration list for PBXNativeTarget "BlockSpawnThenCollectUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +520,7 @@
 				89F62BAB1C9B68A400364DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
